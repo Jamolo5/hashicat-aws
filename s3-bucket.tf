@@ -3,7 +3,7 @@ module "s3_bucket" {
 
   version = "2.2.0"  
   bucket_prefix = "jamolo"
-  bucket = "my-s3-bucket"
+  
   acl    = "private"
 
   versioning = {
